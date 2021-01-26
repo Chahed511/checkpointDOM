@@ -1,0 +1,148 @@
+
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+body {
+ padding: 0;
+ margin :0;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.container{
+    margin-top : 50px;
+    margin-left: 0px;
+
+
+}
+.container2 {
+
+ margin-top : 50px;
+ margin-left : 50px;
+ width : 80%;
+}
+.fa-times ,.fa-heart {
+color : #D7D8DC ;
+}
+.fa-times:hover ,.fa-heart:hover {
+    color : red;
+    cursor: pointer;
+    }
+img {
+
+    width: 150px;
+    height: 150px;
+    border : 1px solid #D7D8DC;
+}
+
+img:hover {
+ transform: scale(1.2)
+}
+
+.product {
+ display: flex;
+ justify-content: space-around;
+align-items: center;
+border-top : 10px solid #D7D8DC ;
+border-bottom: 1px solid #D7D8DC ;
+padding: 20px;
+}
+
+.itemsprice , .itemsaddremove , .favdelete {
+
+display: flex;
+justify-content: space-between;
+width : 100px ;
+}
+
+.itemsprice .price {
+
+    margin-top: 80px;
+ margin-right: 60px;
+ 
+}
+
+ .itemsnumber{
+ color: rgb(0, 8, 85);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold ;
+}
+.itemsprice p {
+    margin-top: 50px;
+    margin-top: 60px;
+    color: rgb(0, 8, 85);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold ;
+   }
+
+.description {
+color : rgb(0, 8, 85);
+width: 300px ;
+height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.total {
+display: flex;
+align-items: center;
+color : white;
+position : fixed;
+top:0;
+background-color: black;
+width: 100vw;
+justify-content: center;
+height: 70px;
+}
+.totalprice {
+  
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+  margin-left: 50px;
+
+}
+.unitprice
+{margin-top: 80px;
+    color : rgb(0, 8, 85);
+width: 300px ;
+height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+
+
+}
+.totalprice p {
+  font-weight: bold ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+button{
+    width: 30px;
+    border : 1px outset ;
+ 
+}
+
+.active {
+
+    color : red ;
+}
